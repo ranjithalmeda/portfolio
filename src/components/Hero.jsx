@@ -47,12 +47,11 @@ function Hero() {
             </a>
 
             <a
-              href="https://github.com/ranjithalmeda"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="/cv.pdf"
+              download="Almeda_CV.pdf"
               className="rounded-md border border-[#4FD1C5] px-6 py-3 font-medium text-[#4FD1C5] transition hover:bg-[#4FD1C5] hover:text-[#07111F]"
             >
-              GitHub
+              Download CV
             </a>
           </div>
         </div>
@@ -69,13 +68,18 @@ function Hero() {
                   rounded-3xl
                   object-cover
                   border
-                  border-[#203040]
+                  border-[#e8602c]
+                  shadow-[0_0_35px_rgba(232,96,44,0.18)]
                   transition-all
                   duration-500
-                  group-hover:-translate-y-1
-                  group-hover:scale-[1.02]
-                  group-hover:border-[#e8602c]
-                  group-hover:shadow-[0_0_60px_rgba(232,96,44,0.25)]
+
+                  md:border-[#203040]
+                  md:shadow-none
+
+                  md:group-hover:-translate-y-1
+                  md:group-hover:scale-[1.02]
+                  md:group-hover:border-[#e8602c]
+                  md:group-hover:shadow-[0_0_60px_rgba(232,96,44,0.25)]
                 "
               />
             </div>

@@ -11,7 +11,7 @@ import Experience from "./components/Experience";
 
 function App() {
   return (
-      <main className="min-h-screen bg-white text-[#07111F] transition-colors duration-300 dark:bg-[#07111F] dark:text-white">
+      <main className="min-h-screen bg-[#07111F] text-white">
       <Navbar />
       <Hero />
       <TechStack />
@@ -49,21 +49,38 @@ function App() {
             githubLink="https://github.com/ranjithalmeda/GoSync"
           />
 
-          <ProjectCard
+            <ProjectCard
+              title="Expense Tracker Mobile Application"
+              description="An Android application that enables users to record, categorize, and monitor daily expenses with secure local data storage and an intuitive mobile experience."
+              tech="Kotlin • XML • Room Database • RecyclerView • Figma"
+              demoLink="#"
+              githubLink="#"
+            />
+
+           <ProjectCard
+            title="EMSystem"
+            description="A web-based Employee Management System developed for managing employee records, authentication, and organizational operations through a responsive interface."
+            tech="Java • JSP • MySQL • HTML • CSS • JavaScript"
+            demoLink="https://github.com/ranjithalmeda/EMSystem"
+            githubLink="https://github.com/ranjithalmeda/EMSystem"
+          />
+
+            <ProjectCard
             title="UniWave"
             description="A student academic ecosystem concept focused on improving academic communication and student services."
             tech="React • Node.js • MongoDB"
-            demoLink="https://github.com/ranjithalmeda/GoSync"
-            githubLink="https://github.com/ranjithalmeda/GoSync"
+            demoLink="https://github.com/ranjithalmeda/UniWave"
+            githubLink="https://github.com/ranjithalmeda/UniWave"
           />
 
           <ProjectCard
             title="Smart Campus"
             description="A smart campus management concept designed to support digital services for students and university staff."
             tech="React • Node.js • Express • MongoDB"
-            demoLink="https://github.com/ranjithalmeda/GoSync"
-            githubLink="https://github.com/ranjithalmeda/GoSync"
+            demoLink="https://github.com/ranjithalmeda/it3030-paf-2026-smart-campus-Y3S2-WE-54"
+            githubLink="https://github.com/ranjithalmeda/it3030-paf-2026-smart-campus-Y3S2-WE-54"
           />
+
         </div>
       </section>
 

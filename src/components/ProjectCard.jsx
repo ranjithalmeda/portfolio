@@ -9,9 +9,9 @@ function ProjectCard({ title, description, tech, demoLink, githubLink }) {
       transition={{ duration: 0.5 }}
       viewport={{ once: true }}
     >
-      <div className="mb-5 flex h-36 items-center justify-center rounded-lg border border-[#203040] bg-[#07111F]">
+        {/*<div className="mb-5 flex h-36 items-center justify-center rounded-lg border border-[#203040] bg-[#07111F]"> 
         <p className="text-sm text-gray-500">Project Screenshot</p>
-      </div>
+        </div> */}
 
       <h3 className="text-2xl font-bold text-[#FF7B54]">
         {title}
