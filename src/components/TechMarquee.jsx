@@ -18,6 +18,8 @@ import {
   SiSpringboot,
   SiMysql,
   SiPostman,
+  SiWireshark
+
 } from "react-icons/si";
 
 function TechMarquee() {
@@ -52,6 +54,9 @@ const techs = [
   { icon: SiPostman, name: "Postman" },
   { icon: SiGithub, name: "GitHub" },
   { icon: SiVercel, name: "Vercel" },
+   { icon: SiWireshark, name: "Wireshark" },
+
+
 ];
 
   return (
