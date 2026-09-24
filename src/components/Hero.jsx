@@ -91,7 +91,7 @@ function Hero() {
         <div className="rounded-xl border border-[#203040] bg-[#0B1628] p-5">
           <h3 className="text-sm text-gray-400">Education</h3>
           <p className="mt-2 font-semibold text-white">
-            3rd Year IT Undergraduate
+            4th Year IT Undergraduate
           </p>
         </div>
 
